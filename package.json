@@ -1,0 +1,19 @@
+{
+  "name": "emotion-11-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/content.js",
+  "scripts": {
+    "build": "parcel build src/content.js"
+  },
+  "author": "Craig Sketchley <craigsketchley@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@emotion/cache": "^11.0.0-next.13",
+    "@emotion/react": "^11.0.0-next.13",
+    "@emotion/styled": "^11.0.0-next.13",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

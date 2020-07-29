@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Emotion 11 Test Extension",
+  "short_name": "Emotion 11 Test",
+  "version": "0.0.1",
+  "description": "Test extension to see how emotion 11 behaves when used in the content script.",
+
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
